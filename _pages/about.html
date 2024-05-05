@@ -30,10 +30,21 @@ redirect_from:
 <div class="container mt-5" id="projects">
   <h2 class="text-center mb-4">Projects</h2> <!-- Central headline -->
   <div class="row">
+    <style>
+      .card-body {
+        display: flex;
+        flex-direction: column;
+      }
+      .card-body .btn-link {
+        margin-top: auto;
+        color: #007bff; /* Bootstrap primary color, adjust as needed */
+        text-decoration: none;
+      }
+    </style>
     <div class="col-md-6 mb-3">
       <div class="card h-100 shadow-sm">
         <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Project Image 1">
-        <div class="card-body">
+        <div class="card-body d-flex flex-column">
           <h5 class="card-title">Machine learning in Econometrics</h5>
           <p class="card-text">An empirical report based on a university course</p>
           <ul>
@@ -42,14 +53,14 @@ redirect_from:
             <li>Causal inference</li>
             <li>Data Visualization</li>
           </ul>
-          <a href="https://github.com/your-username/machine-learning-econometrics" class="btn btn-primary">View on GitHub</a>
+          <a href="https://github.com/your-username/machine-learning-econometrics" class="btn btn-link">View on GitHub</a>
         </div>
       </div>
     </div>
     <div class="col-md-6 mb-3">
       <div class="card h-100 shadow-sm">
         <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Project Image 2">
-        <div class="card-body">
+        <div class="card-body d-flex flex-column">
           <h5 class="card-title">Pagerank</h5>
           <p class="card-text">Contains two implementations of Larry Page's pagerank algorithm to order webpages by relevance.</p>
           <ul>
@@ -57,56 +68,10 @@ redirect_from:
             <li>Conditional probability</li>
             <li>AI</li>
           </ul>
-          <a href="https://github.com/your-username/pagerank" class="btn btn-primary">View on GitHub</a>
+          <a href="https://github.com/your-username/pagerank" class="btn btn-link">View on GitHub</a>
         </div>
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-6 mb-3">
-      <div class="card h-100 shadow-sm">
-        <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Project Image 1">
-        <div class="card-body">
-          <h5 class="card-title">Minesweeper</h5>
-          <p class="card-text">An implementation of a Minesweeper AI.</p>
-          <ul>
-            <li>Python</li>
-            <li>AI</li>
-          </ul>
-          <a href="https://github.com/your-username/minesweeper" class="btn btn-primary">View on GitHub</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6 mb-3">
-      <div class="card h-100 shadow-sm">
-        <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Project Image 2">
-        <div class="card-body">
-          <h5 class="card-title">GRF</h5>
-          <p class="card-text">An in-depth exploration of the Generalized Random Forests framework and economic use cases.</p>
-          <ul>
-            <li>R</li>
-            <li>Machine learning</li>
-            <li>Data visualization</li>
-          </ul>
-          <a href="https://github.com/your-username/grf" class="btn btn-primary">View on GitHub</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-6 mb-3">
-      <div class="card h-100 shadow-sm">
-        <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Project Image 1">
-        <div class="card-body">
-          <h5 class="card-title">Plenarsitzungen</h5>
-          <p class="card-text">A simple script to webscrape all speeches held during Bundestag Plenarsitzungen.</p>
-          <ul>
-            <li>Python</li>
-            <li>Webscraping</li>
-          </ul>
-          <a href="https://github.com/your-username/plenarsitzungen" class="btn btn-primary">View on GitHub</a>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!-- Repeat the rows and columns as needed for more cards -->
 </div>
